@@ -1,7 +1,5 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
-  <button class="btn btn-primary">Here</button>
+  <nav-bar></nav-bar>
+  <RouterView />
+  <main-footer></main-footer>
 </template>
